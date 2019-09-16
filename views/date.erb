@@ -1,0 +1,14 @@
+<!DOCTYPE=HTML>
+<html>
+
+    <header>
+        <h1>"Today"</h1>
+        <% time = Time.new %>
+        <% week = time.strftime("%A") %>
+        <% date = time.strftime("%B %d, %Y") %>
+        <p><%= 'The date is ' + week + ', ' + date %></p>
+    </header>
+    <body>
+    </body>
+
+</html>
